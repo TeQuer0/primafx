@@ -38,7 +38,7 @@ import com.primavera.integration.client.bo.object.Project;
 	            {
 	                Project proj = boi.next();
 	                System.out.println(proj.getId()+ "  "+ proj.getName() + "  " + proj.getStatus() );
-	                // РїСЂРёРІРµС‚ РѕС‚ РіРёС‚С…Р°Р±Р°
+	                // и тебе привет
 	              
 	                
 	            }
