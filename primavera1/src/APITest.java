@@ -1,10 +1,10 @@
 
 
 
-	import com.primavera.integration.client.Session;
-	import com.primavera.integration.client.EnterpriseLoadManager;
-	import com.primavera.integration.client.RMIURL;
-	import com.primavera.integration.common.DatabaseInstance;
+import com.primavera.integration.client.Session;
+import com.primavera.integration.client.EnterpriseLoadManager;
+import com.primavera.integration.client.RMIURL;
+import com.primavera.integration.common.DatabaseInstance;
 import com.primavera.integration.client.bo.BOHelper;
 import com.primavera.integration.client.bo.BOIterator;
 import com.primavera.integration.client.bo.BusinessObject;
@@ -38,7 +38,7 @@ import com.primavera.integration.client.bo.object.Project;
 	            {
 	                Project proj = boi.next();
 	                System.out.println(proj.getId()+ "  "+ proj.getName() + "  " + proj.getStatus() );
-	                
+	                // привет от гитхаба
 	              
 	                
 	            }
